@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat component should render component with avatar 1`] = `
+<Chat
+  avatar="http://dummyimage.com/100x100.jpg/dddddd/000000"
+  email="jgomezh@cdc.gov"
+  fullName="Jeremy Gomez"
+  message="Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia."
+  messageId="22a454b1-6659-400f-aa77-eaae34a77118"
+  timestamp="2016-04-14T16:53:55Z"
+  userId="205c9b7a-345d-4aa2-9e4c-56f05f72bbe8"
+>
+  <div
+    className="Chat"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <img
+      alt="Jeremy Gomez"
+      className="ChatAvatar"
+      src="http://dummyimage.com/100x100.jpg/dddddd/000000"
+    />
+    <div
+      className="ChatData"
+    >
+      <p
+        className="ChatName"
+      >
+        Jeremy Gomez
+      </p>
+      <p
+        className="ChatMessage"
+      >
+        Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.
+      </p>
+      <p
+        className="ChatTime"
+      >
+        14/04/2016 17:53
+      </p>
+    </div>
+  </div>
+</Chat>
+`;
+
+exports[`Chat component should render component without avatar 1`] = `
+<Chat
+  avatar={null}
+  email="jgomezh@cdc.gov"
+  fullName="Jeremy Gomez"
+  message="Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia."
+  messageId="22a454b1-6659-400f-aa77-eaae34a77118"
+  timestamp="2016-04-14T16:53:55Z"
+  userId="205c9b7a-345d-4aa2-9e4c-56f05f72bbe8"
+>
+  <div
+    className="Chat"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="ChatData"
+    >
+      <p
+        className="ChatName"
+      >
+        Jeremy Gomez
+      </p>
+      <p
+        className="ChatMessage"
+      >
+        Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.
+      </p>
+      <p
+        className="ChatTime"
+      >
+        14/04/2016 17:53
+      </p>
+    </div>
+  </div>
+</Chat>
+`;

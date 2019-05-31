@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorBoundary Component should render correct UI 1`] = `
+<ErrorBoundary
+  onCatchError={[MockFunction]}
+>
+  <SomethingTest>
+    <div>
+      this is a test
+    </div>
+  </SomethingTest>
+</ErrorBoundary>
+`;
+
+exports[`ErrorBoundary Component should render correct UI 2`] = `
+<ErrorBoundary
+  onCatchError={[MockFunction]}
+>
+  <h1>
+    Oups, something is not working...
+  </h1>
+</ErrorBoundary>
+`;
